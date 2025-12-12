@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="/Images/icon.png" type="image/x-icon">
+        <title>Dharshini B S</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo"><a href="index.html"><img class="logo" src="Images/logo.png" alt=""></a></div>
+                <div>
+                    <ul class="navi">
+                        <li><a class="nav-btn" href="#about">About</a></li>
+                        <li><a class="nav-btn" href="#skill">Skills</a></li>
+                        <li><a class="nav-btn" href="#certifications">Certifications</a></li>
+                        <li><a class="nav-btn" href="#projects">Projects</a></li>
+                        <li><a class="nav-btn" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="menu">
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                    <div class="menu-line"></div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="about" id="about">
+            <div class="about_content">
+                <span id="name">Hi, I'm Dharshini</span>
+                <span><h5>Full Stack Developer</h5></span>
+                <p>
+                    Hello, I possess 2.5 years of expertise as a programming instructor, cultivating students 
+                    skills in programming and fostering logical thinking. My expertise lies in Web Development, 
+                    where I have a strong foundation. I'm actively honing my skills in web development. 
+                    I thrive on turning ideas into tangible, innovative solutions. Through hands-on projects 
+                    and continuous learning, I'm shaping a career. Welcome to my digital space, where you'll find 
+                    a showcase of my diverse skill set and a journey of exploration into the realms of technology and innovation.
+                </p>
+
+            </div>
+        </section>
+
+        <section class="skills" id="skill">
+            <h3>My Skills</h3>
+            <div class="skills-cont">
+                <div class="skill-icon" id="2">
+                    <!-- <i class="fa-brands fa-python"></i> -->
+                    <i class="fa-brands fa-python fa-beat-fade"></i><p>Python</p>
+                </div>
+                <div class="skill-icon">
+                    <!-- <i class="fa-solid fa-c"></i> -->
+                    <i class="fa-sharp fa-solid fa-c fa-beat-fade"></i><p>C</p>
+                </div>
+                <div class="skill-icon">
+                    <!-- <i class="fa-brands fa-html5"></i> -->
+                    <i class="fa-brands fa-html5 fa-beat-fade"></i><p>HTML & CSS</p>
+                </div>
+                <div class="skill-icon">
+                    <!-- <i class="fa-brands fa-java"></i> -->
+                    <i class="fa-brands fa-js fa-beat-fade"></i><P>JavaScript</P>
+                </div>
+                <div class="skill-icon">
+                    <!-- <i class="fa-solid fa-database"></i> -->
+                    <i class="fa-solid fa-database fa-beat-fade"></i><p>MongoDB</p>
+                </div>
+                <div class="skill-icon">
+                    <!-- <i class="fa-solid fa-wifi"></i> -->
+                    <i class="fa-brands fa-react fa-beat-fade"></i><p>React</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="certifications" id="certifications">
+            <h3>Certifications</h3>
+            <ul>
+                <li>The Joy of Computing using Python course in NPTEL</li>
+                <li>Machine Learning course authorized by Stanford University and offered through Coursera</li>
+                <li>Cleared the assessment for the skill Python (Basic) in HackerRank</li>
+                <li> MS-Office course at Gssi Education</li>
+            </ul>
+            <div class="btn">
+                <a class="crt_btn" href="Document/Certificate.pdf" target="_blank">Certificates</a>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h3>My Pojects</h3>
+            <div class="project-mobile-view">
+                <div class="project-container">
+                    <div class="project-header" onclick="toggleprojectcontainer('section3')">ContactHub Reactor: Dynamic Contact Management Interface</div>
+                    <div class="project-content" id="section3">
+                        <p>The "Contact Manager using React" project involves creating a web application using the React 
+                            JavaScript library to efficiently manage and organize contact information. Users can add, 
+                            edit, and delete contacts, while the application dynamically updates the user interface.
+                             This project typically incorporates features such as a responsive design, 
+                             real-time search functionality, and a user-friendly interface for seamless contact management.</p>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-header" onclick="toggleprojectcontainer('section1')">Automatic Diagnosis of Breast Tumor Based On Convolutional Neural
+                        Networks Using Histopathology Images.</div>
+                    <div class="project-content" id="section1">
+                        <p>Classification of the breast tissues based on supervised learning by training a
+                            deep Convolutional Neural Network to improves the accuracy.The proposed
+                            CNN model is compared with different classifiers for performance
+                            evaluation.</p>
+                    </div>
+                </div>
+                <div class="project-container">
+                    <div class="project-header" onclick="toggleprojectcontainer('section2')">Analysis of
+                        Abnormality Detection Using Various Supervised
+                        Machine Learning Algorithms</div>
+                    <div class="project-content" id="section2">
+                        <p>The project utilizes intelligent systems in e-health for abnormality detection 
+                            using wearable device data (blood pressure, ECG, etc.). Various machine learning algorithms,
+                             including Decision Tree, SVM, KNN, and others, classify individuals as normal or abnormal. 
+                             The aim is to enhance patient well-being and reduce healthcare costs by improving the
+                              quality of healthcare decision-making.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer id="contact">
+            <h2>Lets's Talk</h2>
+            <div class="contact">
+                <div class="address">
+                    <a href="https://www.google.com/maps/place/Cuddalore,+Tamil+Nadu/@11.7509062,79.7460755,14z/" target="_blank"><i class="fa-solid fa-house fa-bounce"></i></a>
+                    <a href="https://www.google.com/maps/place/Cuddalore,+Tamil+Nadu/@11.7509062,79.7460755,14z/" target="_blank"><p>Cuddalore, Tamil Nadu, India</p></a>
+                </div>
+
+                <div class="mailid">
+                    <a href="mailto:dharshadharshu@gmail.com"><i class="fa-solid fa-envelope fa-flip"></i></a>
+                    <a href="mailto:dharshadharshu@gmail.com"><p>dharshadharshu@gmail.com</p></a>
+                </div>
+            </div>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/dharshini-b-s-400274221" target="_blank"><i class="fa-brands fa-linkedin fa-fade"></i></a>
+            </div>
+        </footer>
+    </body>
+    
+    <script>
+        const menu = document.querySelector('.menu')
+        const navi = document.querySelector('.navi')
+        const menuList = document.querySelector('nav div ul')
+        menu.addEventListener('click', ()=>{
+            menuList.classList.toggle('showmenu')
+        })
+        navi.addEventListener('click', ()=>{
+            menuList.classList.toggle('showmenu')
+        })
+
+        function toggleprojectcontainer(sectionId) {
+            var section = document.getElementById(sectionId);
+            var activeSections = document.querySelectorAll('.project-content.active');
+            activeSections.forEach(function(activeSection) {
+                if (activeSection.id !== sectionId) {
+                    activeSection.classList.remove('active');
+                }
+            });
+            section.classList.toggle('active');
+        }
+    </script>
+</html>
